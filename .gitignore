@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.venv/
+.pytest_cache/
+.ruff_cache/
+# Office lock files (opening received/deck.pptx creates received/~$deck.pptx)
+~$*

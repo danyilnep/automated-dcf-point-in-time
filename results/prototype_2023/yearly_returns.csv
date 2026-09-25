@@ -1,0 +1,2 @@
+year,start_equity,end_equity,strategy_return,sample_start,sample_end,strategy_return_sampled,spy_start,spy_end,spy_return,difference_sampled
+2023,100000.0,127232.87,27.2329,2023-01-01,2023-12-27,27.0445,375.5371,474.6439,26.3907,0.6538

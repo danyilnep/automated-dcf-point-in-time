@@ -1,0 +1,196 @@
+{
+  "key": "dcf__sens_pos40",
+  "label": "40 positions",
+  "meta": {
+    "key": "dcf__sens_pos40",
+    "projectId": 36836412,
+    "backtestId": "aaac93beca87e84abaf7f4205df6a749",
+    "name": "sens pos 40",
+    "created": "2026-09-24 21:10:24",
+    "backtestStart": "2016-01-01 00:00:00",
+    "backtestEnd": "2024-12-31 23:59:59",
+    "tradeableDates": 2264,
+    "status": "Completed.",
+    "error": null,
+    "stacktrace": null,
+    "nodeName": "Community B-MICRO",
+    "snapshotId": 36918945,
+    "ordersReported": 1558,
+    "ordersExported": 1558,
+    "codeFiles": [
+      "main.py",
+      "research.ipynb"
+    ]
+  },
+  "parameters_passed": {
+    "margin_of_safety": "0.25",
+    "cost_of_equity": "0.09",
+    "max_positions": "40"
+  },
+  "parameters_effective": {
+    "universe_size": "150",
+    "max_positions": "40",
+    "cost_of_equity": "0.09",
+    "margin_of_safety": "0.25"
+  },
+  "code": {
+    "file": "main.py",
+    "sha256_as_run": "4f7f49ed7adf30b3e57d0cbc4a754d47fd365cfa9d62e52d8ea7497a30ffa599",
+    "sha256_published": "c455f69dffaa58f4380f51fd2e3d5a179753265b879f72aaba32da6eab6ec21f",
+    "bytes_published": 10223,
+    "names_removed": true
+  },
+  "statistics": {
+    "Total Orders": "1558",
+    "Average Win": "0.22%",
+    "Average Loss": "-0.26%",
+    "Compounding Annual Return": "10.619%",
+    "Drawdown": "36.700%",
+    "Expectancy": "0.443",
+    "Start Equity": "100000",
+    "End Equity": "248219.62",
+    "Net Profit": "148.220%",
+    "Sharpe Ratio": "0.425",
+    "Sortino Ratio": "0.418",
+    "Probabilistic Sharpe Ratio": "1.667%",
+    "Loss Rate": "21%",
+    "Win Rate": "79%",
+    "Profit-Loss Ratio": "0.84",
+    "Alpha": "-0.015",
+    "Beta": "0.87",
+    "Annual Standard Deviation": "0.141",
+    "Annual Variance": "0.02",
+    "Information Ratio": "-0.448",
+    "Tracking Error": "0.059",
+    "Treynor Ratio": "0.069",
+    "Total Fees": "$1533.57",
+    "Estimated Strategy Capacity": "$330000000.00",
+    "Lowest Capacity Asset": "PCAR R735QTJ8XC9X",
+    "Portfolio Turnover": "0.48%",
+    "Drawdown Recovery": "394"
+  },
+  "runtime_statistics": {
+    "Equity": "$248,219.62",
+    "Fees": "-$1,533.57",
+    "Holdings": "$213,926.22",
+    "Net Profit": "$120,746.30",
+    "Probabilistic Sharpe Ratio": "1.667%",
+    "Return": "148.22 %",
+    "Unrealized": "$27,436.84",
+    "Volume": "$2,537,833.13"
+  },
+  "trade_statistics": {
+    "startDateTime": "2016-02-01T21:00:00Z",
+    "endDateTime": "2024-12-03T21:00:00Z",
+    "totalNumberOfTrades": 1153,
+    "numberOfWinningTrades": 797,
+    "numberOfLosingTrades": 356,
+    "totalProfitLoss": "122179.83",
+    "totalProfit": "187068.47",
+    "totalLoss": "-64888.64",
+    "largestProfit": "4748.30",
+    "largestLoss": "-2447.19",
+    "averageProfitLoss": "105.9669",
+    "averageProfit": "234.7158",
+    "averageLoss": "-182.2715",
+    "averageTradeDuration": "394.14:58:13.8421565",
+    "averageWinningTradeDuration": "414.14:50:26.3488125",
+    "averageLosingTradeDuration": "349.20:39:16.1797759",
+    "medianTradeDuration": "278.01:00:00",
+    "medianWinningTradeDuration": "304.00:00:00",
+    "medianLosingTradeDuration": "244.01:00:00",
+    "maxConsecutiveWinningTrades": 28,
+    "maxConsecutiveLosingTrades": 22,
+    "profitLossRatio": "1.2877",
+    "winLossRatio": "2.2388",
+    "winRate": "0.6912",
+    "lossRate": "0.3088",
+    "averageMAE": "-152.1495",
+    "averageMFE": "276.5902",
+    "largestMAE": "-2621.53",
+    "largestMFE": "4748.64",
+    "maximumClosedTradeDrawdown": "-16713.29",
+    "maximumIntraTradeDrawdown": "-17317.11",
+    "profitLossStandardDeviation": "412.9557",
+    "profitLossDownsideDeviation": "305.2210",
+    "profitFactor": "2.8829",
+    "sharpeRatio": "0.2566",
+    "sortinoRatio": "0.3472",
+    "profitToMaxDrawdownRatio": "7.3103",
+    "maximumEndTradeDrawdown": "2688.10",
+    "averageEndTradeDrawdown": "-170.6233",
+    "maximumDrawdownDuration": "392.00:00:00",
+    "totalFees": "1456.570"
+  },
+  "portfolio_statistics": {
+    "averageWinRate": "0.0022",
+    "averageLossRate": "-0.0026",
+    "profitLossRatio": "0.8370",
+    "winRate": "0.7854",
+    "lossRate": "0.2146",
+    "expectancy": "0.4428",
+    "startEquity": "100000",
+    "endEquity": "248219.6217",
+    "compoundingAnnualReturn": "0.1062",
+    "drawdown": "0.367",
+    "totalNetProfit": "1.4822",
+    "sharpeRatio": "0.4255",
+    "probabilisticSharpeRatio": "0.0167",
+    "sortinoRatio": "0.4183",
+    "alpha": "-0.0153",
+    "beta": "0.8704",
+    "annualStandardDeviation": "0.1406",
+    "annualVariance": "0.0198",
+    "informationRatio": "-0.4475",
+    "trackingError": "0.0591",
+    "treynorRatio": "0.0687",
+    "portfolioTurnover": "0.0048",
+    "valueAtRisk99": "-0.012",
+    "valueAtRisk95": "-0.009",
+    "drawdownRecovery": "394"
+  },
+  "trade_and_portfolio_statistics_source": "run",
+  "analysis_warnings": [
+    {
+      "name": "FlatEquityCurveAnalysis",
+      "issue": "The equity curve is flat for several days in a row.",
+      "sample": [
+        {
+          "start": "2016-01-01T05:00:00Z",
+          "end": "2016-01-30T05:00:00",
+          "trading_days": 20
+        }
+      ]
+    },
+    {
+      "name": "PortfolioMarginUsageAnalysis",
+      "issue": "The algorithm sometimes only utilizes a small proportion of the margin available.",
+      "sample": "Number of days when the 3-day SMA of the margin usage drops below 50%: 3076"
+    },
+    {
+      "name": "PerformanceRelativeToBenchmarkAnalysis",
+      "issue": "The strategy has a lower Sharpe ratio than the benchmark.",
+      "sample": {
+        "backtestSharpe": -1.804628233739018,
+        "benchmarkSharpe": -1.301763739461968
+      }
+    },
+    {
+      "name": "CrisisEventsAnalysis",
+      "issue": "The strategy underperformed the benchmark during some crisis events in terms of risk-adjusted returns.",
+      "sample": {
+        "crisisEvent": "COVID-19 Pandemic 2020",
+        "backtestSharpe": -1.2063853915130722,
+        "benchmarkSharpe": -1.190653247413432
+      }
+    },
+    {
+      "name": "StatisticalSignificanceOfDailyReturnsAnalysis",
+      "issue": "The distribution of the strategy's daily returns in excess of the benchmark's daily returns has a p-value above 0.05. Therefore, we fail to reject the null hypothesis that the mean of this distribution is above zero.",
+      "sample": {
+        "pValue": 0.05916145884364776
+      }
+    }
+  ],
+  "notes": []
+}

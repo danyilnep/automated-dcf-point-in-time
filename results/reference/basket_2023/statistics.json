@@ -1,0 +1,73 @@
+{
+  "key": "audit__basket_2023",
+  "label": "Reference: equal-weight buy and hold of the prototype's seven stocks, 2023",
+  "meta": {
+    "key": "audit__basket_2023",
+    "projectId": 36922759,
+    "backtestId": "d611b8a8fb19c48188e250a4c75a5297",
+    "name": "basket 2023",
+    "created": "2026-09-24 23:17:21",
+    "backtestStart": "2023-01-01 00:00:00",
+    "backtestEnd": "2023-12-31 23:59:59",
+    "snapshotId": 36922777
+  },
+  "parameters_passed": {
+    "mode": "basket_2023"
+  },
+  "parameters_effective": {
+    "mode": "basket_2023"
+  },
+  "code": {
+    "file": "main.py",
+    "sha256_as_run": "7fa49674a4c1163e3b503106310aa0d8fa5e725bfe8fa45f27783bd5c288e078",
+    "sha256_published": "7fa49674a4c1163e3b503106310aa0d8fa5e725bfe8fa45f27783bd5c288e078",
+    "bytes_published": 1375,
+    "names_removed": false
+  },
+  "statistics": {
+    "Total Orders": "7",
+    "Average Win": "0%",
+    "Average Loss": "0%",
+    "Compounding Annual Return": "28.823%",
+    "Drawdown": "4.800%",
+    "Expectancy": "0",
+    "Start Equity": "100000",
+    "End Equity": "128614.77",
+    "Net Profit": "28.615%",
+    "Sharpe Ratio": "1.312",
+    "Sortino Ratio": "2.022",
+    "Probabilistic Sharpe Ratio": "57.551%",
+    "Loss Rate": "0%",
+    "Win Rate": "0%",
+    "Profit-Loss Ratio": "0",
+    "Alpha": "0.043",
+    "Beta": "0.795",
+    "Annual Standard Deviation": "0.112",
+    "Annual Variance": "0.013",
+    "Information Ratio": "0.218",
+    "Tracking Error": "0.074",
+    "Treynor Ratio": "0.185",
+    "Total Fees": "$7.50",
+    "Estimated Strategy Capacity": "$52000000.00",
+    "Lowest Capacity Asset": "NVO R735QTJ8XC9X",
+    "Portfolio Turnover": "0.28%",
+    "Drawdown Recovery": "42"
+  },
+  "runtime_statistics": {
+    "Equity": "$128,614.77",
+    "Fees": "-$7.50",
+    "Holdings": "$128,238.85",
+    "Net Profit": "$-7.50",
+    "Probabilistic Sharpe Ratio": "57.551%",
+    "Return": "28.61 %",
+    "Unrealized": "$28,614.77",
+    "Volume": "$99,616.58"
+  },
+  "trade_statistics": null,
+  "portfolio_statistics": null,
+  "trade_and_portfolio_statistics_source": null,
+  "analysis_warnings": [],
+  "notes": [
+    "The export has no order list or closed trades for this run, so orders.csv and trades.csv are not written."
+  ]
+}

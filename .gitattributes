@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.png binary
+*.gz binary
+*.pptx binary
+*.pdf binary
+
+# Keep GitHub's language bar about the code written here: QuantConnect's generated reports and
+# the code QuantConnect stored with each backtest are generated, the 2024 originals vendored.
+results/**/qc_report.html linguist-generated
+results/**/code/*.py linguist-generated
+received/** linguist-vendored

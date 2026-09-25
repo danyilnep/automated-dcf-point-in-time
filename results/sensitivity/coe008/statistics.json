@@ -1,0 +1,188 @@
+{
+  "key": "dcf__sens_coe008",
+  "label": "Cost of equity 8%",
+  "meta": {
+    "key": "dcf__sens_coe008",
+    "projectId": 36836412,
+    "backtestId": "7f67daf6f1cbcc51e5a3e58ce1133a91",
+    "name": "sens coe 0.08",
+    "created": "2026-09-22 18:13:57",
+    "backtestStart": "2016-01-01 00:00:00",
+    "backtestEnd": "2024-12-31 23:59:59",
+    "tradeableDates": 2264,
+    "status": "Completed.",
+    "error": null,
+    "stacktrace": null,
+    "nodeName": "Community B-MICRO",
+    "snapshotId": 36837180,
+    "ordersReported": 1309,
+    "ordersExported": 1309,
+    "codeFiles": [
+      "main.py",
+      "research.ipynb"
+    ]
+  },
+  "parameters_passed": {
+    "margin_of_safety": "0.25",
+    "cost_of_equity": "0.08"
+  },
+  "parameters_effective": {
+    "universe_size": "150",
+    "max_positions": "20",
+    "cost_of_equity": "0.08",
+    "margin_of_safety": "0.25"
+  },
+  "code": {
+    "file": "main.py",
+    "sha256_as_run": "4f7f49ed7adf30b3e57d0cbc4a754d47fd365cfa9d62e52d8ea7497a30ffa599",
+    "sha256_published": "c455f69dffaa58f4380f51fd2e3d5a179753265b879f72aaba32da6eab6ec21f",
+    "bytes_published": 10223,
+    "names_removed": true
+  },
+  "statistics": {
+    "Total Orders": "1309",
+    "Average Win": "0.24%",
+    "Average Loss": "-0.41%",
+    "Compounding Annual Return": "7.515%",
+    "Drawdown": "43.200%",
+    "Expectancy": "0.224",
+    "Start Equity": "100000",
+    "End Equity": "192084.85",
+    "Net Profit": "92.085%",
+    "Sharpe Ratio": "0.263",
+    "Sortino Ratio": "0.261",
+    "Probabilistic Sharpe Ratio": "0.370%",
+    "Loss Rate": "23%",
+    "Win Rate": "77%",
+    "Profit-Loss Ratio": "0.58",
+    "Alpha": "-0.038",
+    "Beta": "0.915",
+    "Annual Standard Deviation": "0.156",
+    "Annual Variance": "0.024",
+    "Information Ratio": "-0.575",
+    "Tracking Error": "0.078",
+    "Treynor Ratio": "0.045",
+    "Total Fees": "$1355.86",
+    "Estimated Strategy Capacity": "$160000000.00",
+    "Lowest Capacity Asset": "PCAR R735QTJ8XC9X",
+    "Portfolio Turnover": "0.51%",
+    "Drawdown Recovery": "719"
+  },
+  "runtime_statistics": {
+    "Equity": "$192,084.85",
+    "Fees": "-$1,355.86",
+    "Holdings": "$180,322.05",
+    "Net Profit": "$71,466.92",
+    "Probabilistic Sharpe Ratio": "0.370%",
+    "Return": "92.08 %",
+    "Unrealized": "$20,594.27",
+    "Volume": "$2,318,873.90"
+  },
+  "trade_statistics": {
+    "startDateTime": "2016-02-01T21:00:00Z",
+    "endDateTime": "2024-12-03T21:00:00Z",
+    "totalNumberOfTrades": 1096,
+    "numberOfWinningTrades": 702,
+    "numberOfLosingTrades": 394,
+    "totalProfitLoss": "72922.69",
+    "totalProfit": "154487.78",
+    "totalLoss": "-81565.09",
+    "largestProfit": "4818.13",
+    "largestLoss": "-3824.48",
+    "averageProfitLoss": "66.5353",
+    "averageProfit": "220.0681",
+    "averageLoss": "-207.0180",
+    "averageTradeDuration": "433.16:55:04.3795653",
+    "averageWinningTradeDuration": "452.16:17:26.1538473",
+    "averageLosingTradeDuration": "399.21:34:06.7005088",
+    "medianTradeDuration": "307.01:00:00",
+    "medianWinningTradeDuration": "334.00:00:00",
+    "medianLosingTradeDuration": "305.01:00:00",
+    "maxConsecutiveWinningTrades": 37,
+    "maxConsecutiveLosingTrades": 26,
+    "profitLossRatio": "1.0630",
+    "winLossRatio": "1.7817",
+    "winRate": "0.6405",
+    "lossRate": "0.3595",
+    "averageMAE": "-183.3243",
+    "averageMFE": "273.1782",
+    "largestMAE": "-4136.10",
+    "largestMFE": "4818.48",
+    "maximumClosedTradeDrawdown": "-29016.47",
+    "maximumIntraTradeDrawdown": "-29560.47",
+    "profitLossStandardDeviation": "461.1579",
+    "profitLossDownsideDeviation": "442.8552",
+    "profitFactor": "1.8940",
+    "sharpeRatio": "0.1443",
+    "sortinoRatio": "0.1502",
+    "profitToMaxDrawdownRatio": "2.5131",
+    "maximumEndTradeDrawdown": "5348.69",
+    "averageEndTradeDrawdown": "-206.6429",
+    "maximumDrawdownDuration": "820.00:00:00",
+    "totalFees": "1302.650"
+  },
+  "portfolio_statistics": {
+    "averageWinRate": "0.0024",
+    "averageLossRate": "-0.0041",
+    "profitLossRatio": "0.5796",
+    "winRate": "0.7748",
+    "lossRate": "0.2252",
+    "expectancy": "0.2238",
+    "startEquity": "100000",
+    "endEquity": "192084.8458",
+    "compoundingAnnualReturn": "0.0752",
+    "drawdown": "0.432",
+    "totalNetProfit": "0.9208",
+    "sharpeRatio": "0.2629",
+    "probabilisticSharpeRatio": "0.0037",
+    "sortinoRatio": "0.2610",
+    "alpha": "-0.0377",
+    "beta": "0.9149",
+    "annualStandardDeviation": "0.1561",
+    "annualVariance": "0.0244",
+    "informationRatio": "-0.5750",
+    "trackingError": "0.0783",
+    "treynorRatio": "0.0448",
+    "portfolioTurnover": "0.0051",
+    "valueAtRisk99": "-0.014",
+    "valueAtRisk95": "-0.010",
+    "drawdownRecovery": "719"
+  },
+  "trade_and_portfolio_statistics_source": "run",
+  "analysis_warnings": [
+    {
+      "name": "FlatEquityCurveAnalysis",
+      "issue": "The equity curve is flat for several days in a row.",
+      "sample": [
+        {
+          "start": "2016-01-01T05:00:00Z",
+          "end": "2016-01-30T05:00:00",
+          "trading_days": 20
+        }
+      ]
+    },
+    {
+      "name": "PortfolioMarginUsageAnalysis",
+      "issue": "The algorithm sometimes only utilizes a small proportion of the margin available.",
+      "sample": "Number of days when the 3-day SMA of the margin usage drops below 50%: 2993"
+    },
+    {
+      "name": "PerformanceRelativeToBenchmarkAnalysis",
+      "issue": "The strategy has a lower Sharpe ratio than the benchmark.",
+      "sample": {
+        "backtestSharpe": -1.747339603812476,
+        "benchmarkSharpe": -1.314478909594242
+      }
+    },
+    {
+      "name": "CrisisEventsAnalysis",
+      "issue": "The strategy underperformed the benchmark during some crisis events in terms of risk-adjusted returns.",
+      "sample": {
+        "crisisEvent": "COVID-19 Pandemic 2020",
+        "backtestSharpe": -1.2521337153459502,
+        "benchmarkSharpe": -1.190653247413432
+      }
+    }
+  ],
+  "notes": []
+}

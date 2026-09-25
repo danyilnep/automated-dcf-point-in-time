@@ -1,0 +1,185 @@
+{
+  "key": "dcf__base",
+  "label": "Base parameters, 2016 to 2024",
+  "meta": {
+    "key": "dcf__base",
+    "projectId": 36836412,
+    "backtestId": "54b5e0649da4a9cbf3f7dce6c409c7fe",
+    "name": "run1",
+    "created": "2026-09-22 17:45:13",
+    "backtestStart": "2016-01-01 00:00:00",
+    "backtestEnd": "2024-12-31 23:59:59",
+    "tradeableDates": 2264,
+    "status": "Completed.",
+    "error": null,
+    "stacktrace": null,
+    "nodeName": "Community B-MICRO",
+    "snapshotId": 36836414,
+    "ordersReported": 1340,
+    "ordersExported": 1340,
+    "codeFiles": [
+      "main.py",
+      "research.ipynb"
+    ]
+  },
+  "parameters_passed": {},
+  "parameters_effective": {
+    "universe_size": "150",
+    "max_positions": "20",
+    "cost_of_equity": "0.09",
+    "margin_of_safety": "0.25"
+  },
+  "code": {
+    "file": "main.py",
+    "sha256_as_run": "4f7f49ed7adf30b3e57d0cbc4a754d47fd365cfa9d62e52d8ea7497a30ffa599",
+    "sha256_published": "c455f69dffaa58f4380f51fd2e3d5a179753265b879f72aaba32da6eab6ec21f",
+    "bytes_published": 10223,
+    "names_removed": true
+  },
+  "statistics": {
+    "Total Orders": "1340",
+    "Average Win": "0.25%",
+    "Average Loss": "-0.38%",
+    "Compounding Annual Return": "7.869%",
+    "Drawdown": "43.600%",
+    "Expectancy": "0.254",
+    "Start Equity": "100000",
+    "End Equity": "197850.66",
+    "Net Profit": "97.851%",
+    "Sharpe Ratio": "0.279",
+    "Sortino Ratio": "0.279",
+    "Probabilistic Sharpe Ratio": "0.433%",
+    "Loss Rate": "24%",
+    "Win Rate": "76%",
+    "Profit-Loss Ratio": "0.65",
+    "Alpha": "-0.036",
+    "Beta": "0.916",
+    "Annual Standard Deviation": "0.155",
+    "Annual Variance": "0.024",
+    "Information Ratio": "-0.567",
+    "Tracking Error": "0.076",
+    "Treynor Ratio": "0.047",
+    "Total Fees": "$1388.79",
+    "Estimated Strategy Capacity": "$160000000.00",
+    "Lowest Capacity Asset": "PCAR R735QTJ8XC9X",
+    "Portfolio Turnover": "0.53%",
+    "Drawdown Recovery": "608"
+  },
+  "runtime_statistics": {
+    "Equity": "$197,850.66",
+    "Fees": "-$1,388.79",
+    "Holdings": "$186,888.33",
+    "Net Profit": "$78,361.84",
+    "Probabilistic Sharpe Ratio": "0.433%",
+    "Return": "97.85 %",
+    "Unrealized": "$19,465.20",
+    "Volume": "$2,445,926.45"
+  },
+  "trade_statistics": {
+    "startDateTime": "2016-02-01T21:00:00Z",
+    "endDateTime": "2024-12-03T21:00:00Z",
+    "totalNumberOfTrades": 1114,
+    "numberOfWinningTrades": 723,
+    "numberOfLosingTrades": 391,
+    "totalProfitLoss": "79898.15",
+    "totalProfit": "165705.33",
+    "totalLoss": "-85807.18",
+    "largestProfit": "3910.37",
+    "largestLoss": "-4418.16",
+    "averageProfitLoss": "71.7219",
+    "averageProfit": "229.1913",
+    "averageLoss": "-219.4557",
+    "averageTradeDuration": "420.20:44:09.9102372",
+    "averageWinningTradeDuration": "433.20:01:04.7302933",
+    "averageLosingTradeDuration": "396.21:08:35.6010235",
+    "medianTradeDuration": "307.00:00:00",
+    "medianWinningTradeDuration": "308.00:00:00",
+    "medianLosingTradeDuration": "305.01:00:00",
+    "maxConsecutiveWinningTrades": 30,
+    "maxConsecutiveLosingTrades": 29,
+    "profitLossRatio": "1.0444",
+    "winLossRatio": "1.8491",
+    "winRate": "0.6490",
+    "lossRate": "0.3510",
+    "averageMAE": "-180.0021",
+    "averageMFE": "274.6328",
+    "largestMAE": "-4732.93",
+    "largestMFE": "3910.65",
+    "maximumClosedTradeDrawdown": "-30057.20",
+    "maximumIntraTradeDrawdown": "-30523.43",
+    "profitLossStandardDeviation": "472.5998",
+    "profitLossDownsideDeviation": "472.0340",
+    "profitFactor": "1.9311",
+    "sharpeRatio": "0.1518",
+    "sortinoRatio": "0.1519",
+    "profitToMaxDrawdownRatio": "2.6582",
+    "maximumEndTradeDrawdown": "5525.51",
+    "averageEndTradeDrawdown": "-202.9109",
+    "maximumDrawdownDuration": "820.00:00:00",
+    "totalFees": "1330.540"
+  },
+  "portfolio_statistics": {
+    "averageWinRate": "0.0025",
+    "averageLossRate": "-0.0038",
+    "profitLossRatio": "0.6515",
+    "winRate": "0.7594",
+    "lossRate": "0.2406",
+    "expectancy": "0.2542",
+    "startEquity": "100000",
+    "endEquity": "197850.6646",
+    "compoundingAnnualReturn": "0.0787",
+    "drawdown": "0.436",
+    "totalNetProfit": "0.9785",
+    "sharpeRatio": "0.2792",
+    "probabilisticSharpeRatio": "0.0043",
+    "sortinoRatio": "0.2792",
+    "alpha": "-0.0356",
+    "beta": "0.9163",
+    "annualStandardDeviation": "0.1549",
+    "annualVariance": "0.0240",
+    "informationRatio": "-0.5668",
+    "trackingError": "0.0756",
+    "treynorRatio": "0.0472",
+    "portfolioTurnover": "0.0053",
+    "valueAtRisk99": "-0.014",
+    "valueAtRisk95": "-0.010",
+    "drawdownRecovery": "608"
+  },
+  "trade_and_portfolio_statistics_source": "run",
+  "analysis_warnings": [
+    {
+      "name": "FlatEquityCurveAnalysis",
+      "issue": "The equity curve is flat for several days in a row.",
+      "sample": [
+        {
+          "start": "2016-01-01T05:00:00Z",
+          "end": "2016-01-30T05:00:00",
+          "trading_days": 20
+        }
+      ]
+    },
+    {
+      "name": "PortfolioMarginUsageAnalysis",
+      "issue": "The algorithm sometimes only utilizes a small proportion of the margin available.",
+      "sample": "Number of days when the 3-day SMA of the margin usage drops below 50%: 2966"
+    },
+    {
+      "name": "PerformanceRelativeToBenchmarkAnalysis",
+      "issue": "The strategy has a lower Sharpe ratio than the benchmark.",
+      "sample": {
+        "backtestSharpe": -1.640036344296464,
+        "benchmarkSharpe": -1.314478909594242
+      }
+    },
+    {
+      "name": "CrisisEventsAnalysis",
+      "issue": "The strategy underperformed the benchmark during some crisis events in terms of risk-adjusted returns.",
+      "sample": {
+        "crisisEvent": "COVID-19 Pandemic 2020",
+        "backtestSharpe": -1.2309612061152198,
+        "benchmarkSharpe": -1.190653247413432
+      }
+    }
+  ],
+  "notes": []
+}

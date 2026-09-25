@@ -1,0 +1,189 @@
+{
+  "key": "dcf__sens_pos10",
+  "label": "10 positions",
+  "meta": {
+    "key": "dcf__sens_pos10",
+    "projectId": 36836412,
+    "backtestId": "983f653f8fde81f2d1ad2f5bb5f0dc25",
+    "name": "sens pos 10",
+    "created": "2026-09-24 21:08:14",
+    "backtestStart": "2016-01-01 00:00:00",
+    "backtestEnd": "2024-12-31 23:59:59",
+    "tradeableDates": 2264,
+    "status": "Completed.",
+    "error": null,
+    "stacktrace": null,
+    "nodeName": "Community B-MICRO",
+    "snapshotId": 36918856,
+    "ordersReported": 891,
+    "ordersExported": 891,
+    "codeFiles": [
+      "main.py",
+      "research.ipynb"
+    ]
+  },
+  "parameters_passed": {
+    "margin_of_safety": "0.25",
+    "cost_of_equity": "0.09",
+    "max_positions": "10"
+  },
+  "parameters_effective": {
+    "universe_size": "150",
+    "max_positions": "10",
+    "cost_of_equity": "0.09",
+    "margin_of_safety": "0.25"
+  },
+  "code": {
+    "file": "main.py",
+    "sha256_as_run": "4f7f49ed7adf30b3e57d0cbc4a754d47fd365cfa9d62e52d8ea7497a30ffa599",
+    "sha256_published": "c455f69dffaa58f4380f51fd2e3d5a179753265b879f72aaba32da6eab6ec21f",
+    "bytes_published": 10223,
+    "names_removed": true
+  },
+  "statistics": {
+    "Total Orders": "891",
+    "Average Win": "0.35%",
+    "Average Loss": "-0.62%",
+    "Compounding Annual Return": "2.949%",
+    "Drawdown": "48.000%",
+    "Expectancy": "0.100",
+    "Start Equity": "100000",
+    "End Equity": "129926.57",
+    "Net Profit": "29.927%",
+    "Sharpe Ratio": "0.07",
+    "Sortino Ratio": "0.072",
+    "Probabilistic Sharpe Ratio": "0.039%",
+    "Loss Rate": "30%",
+    "Win Rate": "70%",
+    "Profit-Loss Ratio": "0.57",
+    "Alpha": "-0.067",
+    "Beta": "0.912",
+    "Annual Standard Deviation": "0.168",
+    "Annual Variance": "0.028",
+    "Information Ratio": "-0.741",
+    "Tracking Error": "0.1",
+    "Treynor Ratio": "0.013",
+    "Total Fees": "$1034.35",
+    "Estimated Strategy Capacity": "$170000000.00",
+    "Lowest Capacity Asset": "WMB R735QTJ8XC9X",
+    "Portfolio Turnover": "0.58%",
+    "Drawdown Recovery": "377"
+  },
+  "runtime_statistics": {
+    "Equity": "$129,926.57",
+    "Fees": "-$1,034.35",
+    "Holdings": "$115,392.95",
+    "Net Profit": "$26,527.97",
+    "Probabilistic Sharpe Ratio": "0.039%",
+    "Return": "29.93 %",
+    "Unrealized": "$3,385.61",
+    "Volume": "$2,420,092.30"
+  },
+  "trade_statistics": {
+    "startDateTime": "2016-02-01T21:00:00Z",
+    "endDateTime": "2024-12-03T21:00:00Z",
+    "totalNumberOfTrades": 765,
+    "numberOfWinningTrades": 465,
+    "numberOfLosingTrades": 300,
+    "totalProfitLoss": "27538.10",
+    "totalProfit": "132596.16",
+    "totalLoss": "-105058.06",
+    "largestProfit": "5718.95",
+    "largestLoss": "-7988.22",
+    "averageProfitLoss": "35.9975",
+    "averageProfit": "285.1530",
+    "averageLoss": "-350.1935",
+    "averageTradeDuration": "403.08:33:48.2352996",
+    "averageWinningTradeDuration": "426.13:13:25.1612937",
+    "averageLosingTradeDuration": "367.09:44:24.0000014",
+    "medianTradeDuration": "304.00:00:00",
+    "medianWinningTradeDuration": "304.00:00:00",
+    "medianLosingTradeDuration": "304.23:00:00",
+    "maxConsecutiveWinningTrades": 19,
+    "maxConsecutiveLosingTrades": 30,
+    "profitLossRatio": "0.8143",
+    "winLossRatio": "1.55",
+    "winRate": "0.6078",
+    "lossRate": "0.3922",
+    "averageMAE": "-281.7502",
+    "averageMFE": "381.7267",
+    "largestMAE": "-8639.11",
+    "largestMFE": "6112.37",
+    "maximumClosedTradeDrawdown": "-39600.40",
+    "maximumIntraTradeDrawdown": "-43596.33",
+    "profitLossStandardDeviation": "737.5663",
+    "profitLossDownsideDeviation": "782.5656",
+    "profitFactor": "1.2621",
+    "sharpeRatio": "0.0488",
+    "sortinoRatio": "0.0460",
+    "profitToMaxDrawdownRatio": "0.6954",
+    "maximumEndTradeDrawdown": "8639.11",
+    "averageEndTradeDrawdown": "-345.7291",
+    "maximumDrawdownDuration": "215.23:00:00",
+    "totalFees": "1004.345"
+  },
+  "portfolio_statistics": {
+    "averageWinRate": "0.0035",
+    "averageLossRate": "-0.0062",
+    "profitLossRatio": "0.5667",
+    "winRate": "0.7024",
+    "lossRate": "0.2976",
+    "expectancy": "0.1004",
+    "startEquity": "100000",
+    "endEquity": "129926.5719",
+    "compoundingAnnualReturn": "0.0295",
+    "drawdown": "0.480",
+    "totalNetProfit": "0.2993",
+    "sharpeRatio": "0.0702",
+    "probabilisticSharpeRatio": "0.0004",
+    "sortinoRatio": "0.0719",
+    "alpha": "-0.0669",
+    "beta": "0.9119",
+    "annualStandardDeviation": "0.1679",
+    "annualVariance": "0.0282",
+    "informationRatio": "-0.7411",
+    "trackingError": "0.1005",
+    "treynorRatio": "0.0129",
+    "portfolioTurnover": "0.0058",
+    "valueAtRisk99": "-0.019",
+    "valueAtRisk95": "-0.014",
+    "drawdownRecovery": "377"
+  },
+  "trade_and_portfolio_statistics_source": "run",
+  "analysis_warnings": [
+    {
+      "name": "FlatEquityCurveAnalysis",
+      "issue": "The equity curve is flat for several days in a row.",
+      "sample": [
+        {
+          "start": "2016-01-01T05:00:00Z",
+          "end": "2016-01-30T05:00:00",
+          "trading_days": 20
+        }
+      ]
+    },
+    {
+      "name": "PortfolioMarginUsageAnalysis",
+      "issue": "The algorithm sometimes only utilizes a small proportion of the margin available.",
+      "sample": "Number of days when the 3-day SMA of the margin usage drops below 50%: 3104"
+    },
+    {
+      "name": "PerformanceRelativeToBenchmarkAnalysis",
+      "issue": "The strategy has a lower Sharpe ratio than the benchmark.",
+      "sample": {
+        "backtestSharpe": -1.4612636552907106,
+        "benchmarkSharpe": -1.301763739461968
+      }
+    },
+    {
+      "name": "CrisisEventsAnalysis",
+      "issue": "The strategy underperformed the benchmark during some crisis events in terms of risk-adjusted returns.",
+      "sample": {
+        "crisisEvent": "COVID-19 Pandemic 2020",
+        "backtestSharpe": -1.2477529429059289,
+        "benchmarkSharpe": -1.190653247413432
+      }
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,139 @@
+{
+  "exported": "2026-09-25",
+  "how": "QuantConnect web API, backtest read endpoints, from Danyil Nepyivoda's account",
+  "note": "sha256 is the hash of the export file as imported, which is also the hash of the decompressed .json.gz. In the exports whose code carried them, one docstring paragraph of the embedded code was rewritten to leave out the names of the other 2024 team members; every other byte is as QuantConnect returned it, and provenance/code_hashes.json gives each code file's SHA-256 as run and as published. charts.json.gz is the slice of charts__all.json for the keys listed; its sha256 is that of the slice, source_sha256 that of the full file.",
+  "files": {
+    "dcf__base.json.gz": {
+      "source_file": "dcf__base.json",
+      "sha256": "2c04c4877abe02ee8ba8ca7baf92ed49e9c95a022ce02000f4e396794396003e",
+      "bytes": 2334743
+    },
+    "dcf__sens_mos015.json.gz": {
+      "source_file": "dcf__sens_mos015.json",
+      "sha256": "64a4345f9842c71bfdf3ef94c07b624b55d6f11c8f38ee8d41fa96004483306c",
+      "bytes": 1325396
+    },
+    "dcf__sens_mos035.json.gz": {
+      "source_file": "dcf__sens_mos035.json",
+      "sha256": "b37d8ee8870816bd11428cab9cc157f881ed7c68c3e28bdd08e95f3356713255",
+      "bytes": 1392361
+    },
+    "dcf__sens_mos050.json.gz": {
+      "source_file": "dcf__sens_mos050.json",
+      "sha256": "ec7780095dc001bae2e3ed49d2890a0d671438c081ed91579009a984be5a2bc0",
+      "bytes": 1399287
+    },
+    "dcf__sens_coe008.json.gz": {
+      "source_file": "dcf__sens_coe008.json",
+      "sha256": "f0b839ba89c40eaefd32a325a053c7ea9b20217e322d40ac96771ffc6db820ce",
+      "bytes": 1310773
+    },
+    "dcf__sens_coe010.json.gz": {
+      "source_file": "dcf__sens_coe010.json",
+      "sha256": "24240402350e02410cbcf275d01e8b36ebfc97f40e8f05623e7f16b32bbbe2a6",
+      "bytes": 1381179
+    },
+    "dcf__sens_pos10.json.gz": {
+      "source_file": "dcf__sens_pos10.json",
+      "sha256": "0fd645857793034e64faac08f90861db0e702a0aed116b0df8211f7cd2a7fd39",
+      "bytes": 1066771
+    },
+    "dcf__sens_pos40.json.gz": {
+      "source_file": "dcf__sens_pos40.json",
+      "sha256": "c6e3f913d17d95012ec9f60fd8f686e01de1067007d4d54a56161f4871550937",
+      "bytes": 1475365
+    },
+    "dcf__sens_univ300.json.gz": {
+      "source_file": "dcf__sens_univ300.json",
+      "sha256": "3cb08c3f497454cb75befe18638fa99811130db6e2ac142677d27ff0e59d1cc9",
+      "bytes": 1293595
+    },
+    "dcf__prototype_2023.json.gz": {
+      "source_file": "dcf__prototype_2023.json",
+      "sha256": "650a3d57f5ccb6654d5e626c8793bbfbe5c81839ef70075a633ef1896ebe55a0",
+      "bytes": 226317
+    },
+    "audit__basket_2023.json.gz": {
+      "source_file": "audit__basket_2023.json",
+      "sha256": "3dd686805de32a0ca77c9c07dc2db0ed80c25a56f1abf1a6c32553a43a71d4de",
+      "bytes": 15330
+    },
+    "charts.json.gz": {
+      "source_file": "charts__all.json",
+      "source_sha256": "f0ed8f05b695b2133f16df250c40d969b32fd20d995ab57ce86e67bd68a36f93",
+      "source_bytes": 1889177,
+      "keys": [
+        "dcf__base",
+        "dcf__sens_mos015",
+        "dcf__sens_mos035",
+        "dcf__sens_mos050",
+        "dcf__sens_coe008",
+        "dcf__sens_coe010",
+        "dcf__sens_pos10",
+        "dcf__sens_pos40",
+        "dcf__sens_univ300",
+        "dcf__prototype_2023"
+      ],
+      "sha256": "7d29d2209f6779b5a59a6bda68844c897fd04023d035848bdc20eebfc3b78ca2",
+      "bytes": 1448978
+    },
+    "rerun__dcf_base.json.gz": {
+      "source_file": "rerun__dcf_base.json",
+      "sha256": "5748d9072494834facdc4072e0cd2df9ec1731834949f237fb03553162dbd1d0",
+      "bytes": 738741
+    },
+    "control__dcf_recorded_code.json.gz": {
+      "source_file": "control__dcf_recorded_code.json",
+      "sha256": "3d15265df219204fb93c6277c8946082915f48ab1a238654dc7da0ad3c9547f5",
+      "bytes": 825093
+    },
+    "probe2__2012.json.gz": {
+      "source_file": "probe2__2012.json",
+      "sha256": "1eb69dcc6b9fff514983ab8790b5d382e5afc30d10c7fe8fe9f85fff1d551aad",
+      "bytes": 13184
+    },
+    "probe2__2019.json.gz": {
+      "source_file": "probe2__2019.json",
+      "sha256": "cc7c1a1bc8f88aa84d0966e4fcee06669d845d4f98eab7c240852bbb48ec774c",
+      "bytes": 13205
+    },
+    "capprobe2__2019.json.gz": {
+      "source_file": "capprobe2__2019.json",
+      "sha256": "c86b9f9e6dc8bd246254e4d14f78af76b0c26ee5c448af194f985d540674589c",
+      "bytes": 13674
+    },
+    "engines__original_runs.json.gz": {
+      "source_file": "engines__original_runs.json",
+      "sha256": "308a895f297120b43c78cc16c2eefc6349ea868aa37e02ae647bee335a93a5c9",
+      "bytes": 4376
+    },
+    "backtest_lists.json.gz": {
+      "source_file": "backtest_lists.json",
+      "sha256": "db63320e934ab3712c42a8a301b39138a6a13b3bd57cf6bd6b6eb22ceb1b0f31",
+      "bytes": 81859,
+      "exported": "2026-09-25",
+      "how": "QuantConnect web API, backtests/list with includeStatistics, every backtest of each project",
+      "note": "The file's own exported field reads 2026-09-26. The file was written on 2026-09-25 at 03:24 UTC, about two hours after the last backtest it lists was created (2026-09-25 01:00:28), so the export date is 2026-09-25."
+    }
+  },
+  "reports": {
+    "base_2016_2024/qc_report.html": {
+      "source_file": "dcf__base__report.html",
+      "sha256": "bc408a69e8a2c95e6bf3bc51f0e62ae46f2d4dce7317d0767170fdcb672aeaf5",
+      "bytes": 1656296
+    },
+    "prototype_2023/qc_report.html": {
+      "source_file": "dcf__prototype_2023__report.html",
+      "sha256": "260aaa2273c1d3e1c599746a7a1fcc587f6ac408307a2ce907f99025025a734e",
+      "bytes": 829972
+    }
+  },
+  "provenance": {
+    "provenance/code_hashes.json": {
+      "source_file": "code_hashes.json",
+      "sha256": "06b8c6bb504466de6c301d16d6e80ffe13060314d45850112e9b08d3f2cdcc59",
+      "bytes": 18896,
+      "how": "Not a QuantConnect export. Written on 2026-09-25 when the exports were prepared for publication, by hashing each code file in each export before and after the rewrite. Per export key and code file: as_run is the SHA-256 of the file as QuantConnect stored and ran it, published the SHA-256 of the copy in the export as imported here, and names_removed whether one docstring paragraph was rewritten to leave out the names of the other 2024 team members. It covers the exports of this repository and of the stat-arb repository."
+    }
+  }
+}

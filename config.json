@@ -1,0 +1,10 @@
+{
+    "algorithm-language": "Python",
+    "parameters": {
+        "universe_size": "150",
+        "max_positions": "20",
+        "cost_of_equity": "0.09",
+        "margin_of_safety": "0.25"
+    },
+    "description": "Monthly point-in-time DCF value screen: values the largest 150 US non-financial companies from Morningstar fundamentals and holds up to 20 names trading at least 25% below implied equity value."
+}
